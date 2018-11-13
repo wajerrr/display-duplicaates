@@ -1,0 +1,35 @@
+{
+  "name": "display-duplicaates",
+  "version": "1.0.0",
+  "description": "Displays duplicates of any array",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wajerrr/display-duplicaates.git"
+  },
+  "author": "Przemek Wajerowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wajerrr/display-duplicaates/issues"
+  },
+  "homepage": "https://github.com/wajerrr/display-duplicaates#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "save-dev": "^2.0.0"
+  }
+}
